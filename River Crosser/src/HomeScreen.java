@@ -50,4 +50,5 @@ public class HomeScreen {
 		btnNewButton.setBounds(12, 299, 105, 39);
 		frame.getContentPane().add(btnNewButton);
 	}
+
 }

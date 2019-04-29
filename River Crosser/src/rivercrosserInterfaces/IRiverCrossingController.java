@@ -1,5 +1,5 @@
 package rivercrosserInterfaces;
-
+import java.util.ArrayList;
 import java.awt.List;
 
 public interface IRiverCrossingController {
@@ -42,13 +42,13 @@ public interface IRiverCrossingController {
 	* with the direction of the current game
 	* @return boolean if it is a valid move or not
 	*/
-	public boolean canMove(List crossers, boolean fromLeftToRightBank);
+	public boolean canMove(ArrayList<ICrosser> crossers, boolean fromLeftToRightBank);
 	/**
 	* this method ysed to perform the move if it is valid
 	* @param crossers
 	* @param fromLeftToRightBank
 	*/
-	public void doMove(List crossers, boolean fromLeftToRightBank);
+	public void doMove(ArrayList<ICrosser> crossers, boolean fromLeftToRightBank);
 	/**
 	* @return boolean providing that the undo action can be done or not
 	*/
@@ -81,5 +81,5 @@ public interface IRiverCrossingController {
 	* it returns the boat riders starting from the beginning of the game
 	* until the final solution to show the user the solution
 	*/
-	public List solveGame();
+	public ArrayList<ArrayList<ICrosser>> solveGame();
 }
