@@ -50,15 +50,16 @@ public class FirstScene {
 	 */
 	private void initialize() {
 		frmRivercrosser = new JFrame();
+		frmRivercrosser.setAlwaysOnTop(true);
 		frmRivercrosser.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\SN Waleed\\Desktop\\unnamed.png"));
 		frmRivercrosser.setTitle("RiverCrosser\r\n");
 		frmRivercrosser.getContentPane().setBackground(new Color(240, 255, 240));
 		frmRivercrosser.getContentPane().setForeground(Color.ORANGE);
-		frmRivercrosser.setBounds(100, 100, 500, 478);
+		frmRivercrosser.setBounds(100, 100, 503, 486);
 		frmRivercrosser.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JButton btnNewButton = new JButton("New Game");
-		btnNewButton.setBounds(12, 148, 136, 33);
+		btnNewButton.setBounds(25, 149, 136, 33);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frmRivercrosser.dispose();
@@ -69,14 +70,15 @@ public class FirstScene {
 		btnNewButton.setForeground(Color.BLUE);
 		
 		JButton btnNewButton_1 = new JButton("Load Game");
-		btnNewButton_1.setBounds(199, 205, 136, 36);
+		btnNewButton_1.setBounds(185, 208, 136, 36);
 		btnNewButton_1.setForeground(Color.BLUE);
 		btnNewButton_1.setFont(new Font("Snap ITC", Font.PLAIN, 14));
 		
 		JButton btnNewButton_2 = new JButton("Quit");
-		btnNewButton_2.setBounds(310, 287, 136, 33);
+		btnNewButton_2.setBounds(337, 290, 136, 33);
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				frmRivercrosser.dispose();
 			}
 		});
 		btnNewButton_2.setFont(new Font("Snap ITC", Font.PLAIN, 15));
@@ -88,7 +90,7 @@ public class FirstScene {
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setIcon(new ImageIcon(FirstScene.class.getResource("/ICrosser.jpg")));
-		lblNewLabel.setBounds(0, -11, 482, 453);
+		lblNewLabel.setBounds(0, 0, 482, 442);
 		frmRivercrosser.getContentPane().add(lblNewLabel);
 	}
 	private class SwingAction extends AbstractAction {
