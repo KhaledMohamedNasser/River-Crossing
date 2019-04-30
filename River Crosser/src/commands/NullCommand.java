@@ -1,5 +1,7 @@
 package commands;
-
+/*
+ *UNUSED CLASS
+ */
 public class NullCommand implements Command{
 
 	@Override
