@@ -52,12 +52,12 @@ public class playFrame extends JFrame {
 		);
 		getContentPane().setLayout(groupLayout);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 810, 601);
+		setBounds(100, 100, 899, 601);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(null);
 		Canvas canvas=new Canvas();
-		canvas.setBounds(0, 0, 792, 504);
+		canvas.setBounds(0, 0, 881, 504);
 		
 		contentPane.add(canvas);
 		setContentPane(contentPane);
@@ -87,25 +87,31 @@ public class playFrame extends JFrame {
 		JButton btnNewButton_2 = new JButton("Farmer");
 		btnNewButton_2.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.PLAIN, 18));
 		btnNewButton_2.setForeground(Color.BLUE);
-		btnNewButton_2.setBounds(363, 504, 97, 37);
+		btnNewButton_2.setBounds(445, 504, 97, 37);
 		contentPane.add(btnNewButton_2);
 		
 		JButton btnNewButton_3 = new JButton("Wolf");
 		btnNewButton_3.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.PLAIN, 18));
 		btnNewButton_3.setForeground(Color.BLUE);
-		btnNewButton_3.setBounds(472, 504, 97, 37);
+		btnNewButton_3.setBounds(554, 504, 97, 37);
 		contentPane.add(btnNewButton_3);
 		
 		JButton btnNewButton_4 = new JButton("Goat");
 		btnNewButton_4.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.PLAIN, 18));
 		btnNewButton_4.setForeground(Color.BLUE);
-		btnNewButton_4.setBounds(581, 504, 97, 37);
+		btnNewButton_4.setBounds(663, 504, 97, 37);
 		contentPane.add(btnNewButton_4);
 		
 		JButton btnNewButton_5 = new JButton("Plant");
 		btnNewButton_5.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.PLAIN, 18));
 		btnNewButton_5.setForeground(Color.BLUE);
-		btnNewButton_5.setBounds(690, 504, 97, 37);
+		btnNewButton_5.setBounds(772, 504, 97, 37);
 		contentPane.add(btnNewButton_5);
+		
+		JButton btnNewButton_6 = new JButton("Move");
+		btnNewButton_6.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.PLAIN, 18));
+		btnNewButton_6.setForeground(Color.BLUE);
+		btnNewButton_6.setBounds(336, 505, 97, 37);
+		contentPane.add(btnNewButton_6);
 	}
 }
