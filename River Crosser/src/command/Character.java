@@ -4,11 +4,11 @@ public class Character {
     private boolean charcterOn;
 
     /**
-     * this method used to put characters on boat
+     * this method used to put characters on boat`
      */
     public void charcterOnBoat()
     {
-        this.charcter=true;
+        this.charcterOn=true;
     }
 
     /**
@@ -16,6 +16,6 @@ public class Character {
      */
     public void charcterOffBoat()
     {
-        this.charcter=false;
+        this.charcterOn=false;
     }
 }

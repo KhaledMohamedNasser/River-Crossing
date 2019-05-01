@@ -6,11 +6,11 @@ import java.awt.image.BufferedImage;
 
 public class Invoker implements ICrosser {
     Command command;
-    Charcter farmer=new Farmer();
-    Charcter animal=new Animal();
+    //Charcter farmer=new Farmer();
+   // Charcter animal=new Animal();
 
     public void setCommand(Command command){
-        this.command=command
+        this.command=command;
     }
 
     @Override
