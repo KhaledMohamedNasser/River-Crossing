@@ -92,6 +92,18 @@ public class Story2 extends JFrame {
 		btnNewButton_5.setForeground(Color.BLUE);
 		btnNewButton_5.setBounds(121, 515, 97, 31);
 		contentPane.add(btnNewButton_5);
+		
+		JButton btnNewButton_6 = new JButton("Wolf");
+		btnNewButton_6.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.PLAIN, 18));
+		btnNewButton_6.setForeground(Color.BLUE);
+		btnNewButton_6.setBounds(523, 489, 97, 34);
+		contentPane.add(btnNewButton_6);
+		
+		JButton btnNewButton_7 = new JButton("Move");
+		btnNewButton_7.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.PLAIN, 18));
+		btnNewButton_7.setForeground(Color.BLUE);
+		btnNewButton_7.setBounds(412, 489, 97, 34);
+		contentPane.add(btnNewButton_7);
 		//setContentPane(contentPane);
 	}
 }
