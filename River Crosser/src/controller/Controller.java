@@ -12,6 +12,7 @@ public class Controller implements IRiverCrossingController {
 	@Override
 	public void newGame(ICrossingStrategy gameStrategy) {
 		// TODO Auto-generated method stub
+		gameStrategy.getInitialCrossers();
 	}
 
 	@Override
