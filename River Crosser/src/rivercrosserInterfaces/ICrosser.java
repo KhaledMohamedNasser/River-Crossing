@@ -18,7 +18,6 @@ public interface ICrosser {
 	*/
 	public int getEatingRank();
 	/**
-	*
 	* @return images of the crosser
 	* each crosser must have at least two images, each one
 	* is used on one bank of the river
