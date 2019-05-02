@@ -104,6 +104,12 @@ public class Story2 extends JFrame {
 		btnNewButton_7.setForeground(Color.BLUE);
 		btnNewButton_7.setBounds(412, 489, 97, 34);
 		contentPane.add(btnNewButton_7);
+		
+		JButton btnNewButton_8 = new JButton("Save");
+		btnNewButton_8.setFont(new Font("Tempus Sans ITC", Font.PLAIN, 18));
+		btnNewButton_8.setForeground(Color.BLUE);
+		btnNewButton_8.setBounds(10, 468, 97, 31);
+		contentPane.add(btnNewButton_8);
 		//setContentPane(contentPane);
 	}
 }

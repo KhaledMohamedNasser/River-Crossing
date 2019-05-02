@@ -44,7 +44,7 @@ public interface IRiverCrossingController {
 	*/
 	public boolean canMove(ArrayList<ICrosser> crossers, boolean fromLeftToRightBank);
 	/**
-	* this method ysed to perform the move if it is valid
+	* this method used to perform the move if it is valid
 	* @param crossers
 	* @param fromLeftToRightBank
 	*/

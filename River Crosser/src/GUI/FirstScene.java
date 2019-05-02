@@ -6,7 +6,9 @@ import javax.swing.JPanel;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
+import Strtegy.StoryTwo;
 import controller.Controller;
+import rivercrosserInterfaces.ICrossingStrategy;
 
 import java.awt.Canvas;
 import java.awt.Color;
@@ -70,7 +72,9 @@ public class FirstScene {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frmRivercrosser.dispose();
-				//controller.newGame();
+				playFrame play=new playFrame();
+				play.setVisible(true);
+				//controller.newGame(StoryOne);
 			}
 		});
 		btnNewButton.setFont(new Font("Snap ITC", Font.PLAIN, 14));
@@ -83,6 +87,8 @@ public class FirstScene {
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				frmRivercrosser.dispose();
+				Stories story=new Stories();
+				story.setVisible(true);
 				controller.loadGame();
 			}
 		});
